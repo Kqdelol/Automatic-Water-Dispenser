@@ -4,7 +4,7 @@ This personal project is an Arduino-based automatic water dispenser. The embedde
 In the future, I plan to add CV to detect the presence of a water bottle and dispense without user input, upgrade the chassis using CAD/3D printing, and add other miscellaneous features.
 
 Components:
-Button: $0 (Already had)\n
+Button: $0 (Already had)
 Ultrasonic Sensor: $6.99
 Servo Motor: $0 (Already had)
 Arduino: $0 (Already had)
