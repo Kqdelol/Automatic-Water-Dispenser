@@ -34,7 +34,7 @@ An Arduino-based system that automatically presses a water dispenser button and 
 
 ### Design Sketch
 
-![Design sketch](design-sketch.jpg)
+![Design sketch](images/design-sketch.jpg)
 
 ## Hardware Design
 
