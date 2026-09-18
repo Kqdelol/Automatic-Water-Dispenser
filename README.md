@@ -4,7 +4,7 @@
 
 An Arduino-based system that automatically presses a water dispenser button and detects when a bottle is full, using an ultrasonic sensor and a servo motor.
 
-![Automatic Water Dispenser](images/water-dispenser.jpg)
+![Automatic Water Dispenser](water-dispenser.jpg)
 
 ## Overview
 
@@ -34,7 +34,7 @@ An Arduino-based system that automatically presses a water dispenser button and 
 
 ### Design Sketch
 
-![Design sketch](images/design-sketch.jpg)
+![Design sketch](design-sketch.jpg)
 
 ## Hardware Design
 
@@ -42,7 +42,7 @@ An Arduino-based system that automatically presses a water dispenser button and 
 
 The circuit controls the whole project: receiving the button press, detecting when the bottle is full via the ultrasonic sensor, and driving the servo to press the dispenser button.
 
-![Breadboard wiring](images/breadboard-wiring.jpg)
+![Breadboard wiring](breadboard-wiring.jpg)
 
 [Video Demonstration](https://drive.google.com/file/d/1dckeszdpzdRObbhAMEDrqvppLTZZscEZ/view?usp=sharing)
 
@@ -56,9 +56,9 @@ The electrical, mechanical, and software pieces come together here to bring the 
 
 **Arm mechanism:**
 
-![Arm mechanism prototype1](images/arm-mechanism1.jpg)
-![Arm mechanism prototype2](images/arm-mechanism2.jpg)
-![Arm mechanism prototype3](images/arm-mechanism3.jpg)
+![Arm mechanism prototype1](arm-mechanism1.jpg)
+![Arm mechanism prototype2](arm-mechanism2.jpg)
+![Arm mechanism prototype3](arm-mechanism3.jpg)
 
 **6/18/26 — Big problem:** The original servo was too weak to push the dispenser's button, so I upgraded to a 20kg torque servo motor — likely overkill, but it gets the job done.
 
@@ -70,7 +70,7 @@ That introduced a new problem: the stronger motor needed to be held down while i
 
 **7/7/26:**
 
-![Full assembly in progress](images/assembly-progress.jpg)
+![Full assembly in progress](assembly-progress.jpg)
 
 - Noticed the ultrasonic sensor sometimes read random close-together values, stopping the program early even when the bottle wasn't full. Fixed by only triggering a stop when a distance of ≤4cm is read twice in a row.
 
@@ -78,19 +78,19 @@ That introduced a new problem: the stronger motor needed to be held down while i
 - Finished the housing box and added a top. Fixed the sonar mount by using two support planks instead of one — the original was too limp and ended up reading the side of the bottle instead of the water.
 - Added a button to the outside of the box for easier access.
 
-![Finished housing](images/housing-finished.jpg)
-![Finished housing2](images/housing-finished2.jpg)
+![Finished housing](housing-finished.jpg)
+![Finished housing2](housing-finished2.jpg)
 
 **Tilted bottle platform:**
 
-![Platform with support triangles](images/platform-triangles.jpg)
+![Platform with support triangles](platform-triangles.jpg)
 
 - Designed the platform to tilt the bottle forward at an angle, since the nozzle didn't extend far enough for the bottle to sit upright and still catch the water.
 - Added triangular supports underneath since the platform needed extra structural support to hold the bottle's weight.
 
 **Securing the motor — the main challenge of the project:**
 
-![Motor secured with straps](images/motor-strapped.jpg)
+![Motor secured with straps](motor-strapped.jpg)
 
 The core problem was finding something strong enough to hold the servo down while it pressed the button. After getting stuck, I asked Claude for help, which suggested using the water dispenser itself as a counterweight. Building on that, I secured the motor with straps that tuck underneath the dispenser, reinforced with tape.
 
