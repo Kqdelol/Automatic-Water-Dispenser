@@ -97,6 +97,7 @@ The core problem was finding something strong enough to hold the servo down whil
 This works via Newton's third law — equal and opposite forces. Since the dispenser holds the motor down, the motor would have to lift the entire dispenser to escape, which isn't possible. In effect, I turned a "hold this down constantly" problem into a "distribute the load across a large, stable mass" problem — the same principle behind bolting heavy machinery to a chassis rather than gluing it to a bench.
 
 [Final Video Demonstration](https://drive.google.com/file/d/1zM2EQMrWdjnH6gU4H7EkNe2uwCsaWLFl/view?usp=sharing)
+[Arduino IDE Code](https://github.com/Kqdelol/Automatic-Water-Dispenser/blob/main/water_dispenser.ino)
 
 ## Reflection
 
